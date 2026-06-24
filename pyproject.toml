@@ -1,7 +1,7 @@
 [project]
-name = "picalc-ip8725"
-version = "0.2.0"
-description = "Add your description here"
+name = "Npicalc-ms6985"
+version = "0.0.7"
+description = "This is a test project."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -10,8 +10,8 @@ dependencies = [
 ]
 
 [project.scripts]
-picalc-ip8725 = "picalc_ip8725:main"
-picalc = "picalc_ip8725.pi:main"
+Npicalc-ms6985 = "Npicalc_ms6985:main"
+picalc = "Npicalc_ms6985.pi:main"
 [project.optional-dependencies]
 win = [
     "pandas>=2.3.3",
